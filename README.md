@@ -1,6 +1,6 @@
 # -TCGA-TMB-panel
 利用TCGA数据迭代设计TMB检测panel
-使用： python boot_strap_size_TMB.py  MSK_FMI_525.txt  1021
+使用： python boot_strap_size_TMB.py  {MSK_FMI_525.txt}  {1021}
 默认已写入脚本中的文件：
 1. hg19的bed文件：cut_liftover_hg19_exon_current.gene.bed；
 2. 32个癌种，8291个TCGA样本的TMB总文件：ALL_8291_WES_panel_X_sample_TMB.xls
